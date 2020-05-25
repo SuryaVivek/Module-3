@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+* {
+
+ .center {
+  text-align: center;
+  border: 3px solid green;
+}
+
+/* Container for flexboxes */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 25%;
+  padding: 20px;
+ 
+ }
+ 
+{
+  .column {
+    flex: 50%;
+  }
+}
+
+ {
+  .row {
+    flex-direction: column;
+  }
+
+}
+</style>
+</head>
+<body>
+
+<h2>Surya Vivek - Restaruant </h2>
+<p><strong>Love horror and can’t get enough of it?</strong> Winner of the times' food Awards 2017, this opulent multi-cuisine restaurant is honestly marvelous. The place has table seating with thematic zones like Love Seats, The high table, The Crown, and The private zone.</p>
+
+<div class="row"> <div class="center">
+  <div class="column" style="background-color:#9933cc;text-align: right;"> 
+        <button type="button" class="btn btn-BREAKFAST"> <h2>BREAKFAST </h2> </button>   
+        <p>Some text..</p>
+  </div>  </div> 
+  <div class="container">
+  <div class="row"><div class="center">
+    
+  <div class="column" style="background-color:#ff6347;
+            text-align: right;">
+   <button type="button" class="btn btn-LUNCH"><H2> LUNCH </H2> </button>
+
+    
+    <p>Some text..</p>
+  </div>  </div> 
+  
+  <div class="column" style="background-color:MediumSeaGreen;text-align: right;">
+            <button type="button" class="btn btn-DINNER"><h2>DINNER</h2></button>         
+                
+    
+    <p>Some text..</p>
+  </div>
+  
+}
+ 
+</div>
+
+</body>
+</html>
